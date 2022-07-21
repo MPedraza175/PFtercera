@@ -1,0 +1,142 @@
+.containercard{
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: auto;
+    
+    
+  }
+  
+  .containercard .cards{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgb(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    transition: all0 0.25s;
+    background-color: rgba(88, 91, 247, 0.178);
+  
+  }
+   .cards:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.103);
+  
+  
+  }
+  
+  .containercard .cards img{
+    width: 220px;
+    height: 220px;
+  }
+  
+  .containercard .cards h5{
+    font-weight: 600;
+  }
+  
+  .containercard .cards p{
+    padding: 0 3rem;
+    font-size: 16px;
+    font-weight: 300;
+    
+  }
+  .containercard .cards a{
+    font-weight: 700;
+    text-decoration: none;
+    color:rgba(1, 14, 77, 0.781);
+    margin: 15px;
+  }
+  
+  
+  
+  
+  
+  .main{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1px;
+    padding: 5%;
+    background-color: rgb(248, 245, 245);
+    background-size: cover ;
+    background-attachment: fixed;
+  }
+  .contenedor{
+    width: 100%;
+    padding:15px;
+  }
+  .formulario{
+    background: #fff;
+    margin-top: 158px;
+    padding: 5px;
+  }
+  h1{
+    text-align: center;
+     color: #204db8;
+     font-size: 30px;
+  }
+  
+  
+  input[type="text"],
+  input[type="password"]{
+    font-size: 20px;
+    width: 52%;
+    padding: 10px;
+    border: none;
+  }
+  .input-contenedor{
+    margin-bottom: 15px;
+    border: 0.5px solid rgb(41, 4, 172)
+  }
+  .icon{
+    min-width: 90px;
+    text-align: center;
+    color:#999;
+    margin: 5px;
+  }
+  .button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:#1b2a4e ;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button:hover{
+    background: cadetblue;
+  
+  
+  }
+  
+  
+  .link{
+    text-decoration: none;
+    color:#1b2a4e;
+    font-weight: 600;
+  }
+  .link:hover{
+    color:cadetblue;
+  }
+  @media(min-width:768px) {
+  
+    .formulario{
+      margin: auto;
+      width: 500px;
+      margin-top: 150px;
+      border-radius: 2%;
+    }
+    
+  }
+  
+  .sng{
+    background-color: #215adf;
+    
+  }
+   
+  
